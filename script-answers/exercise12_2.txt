@@ -1,0 +1,249 @@
+docker run -it ubuntu bash
+mkdir /usr/src/app
+cd /usr/src/app
+touch index.js
+exit
+
+Script started on 2023-05-16 22:18:51+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="19"]
+[?2004h]0;morgenrote@debian: ~/Documents/Prog/repos/part12-containers-applications/script-answers[01;32mmorgenrote@debian[00m:[01;34m~/Documents/Prog/repos/part12-containers-applications/script-answers[00m$ [7mdocker run -it ubuntu bash[27m
+
+[A[C[C[C[C[C[C[C[Cdocker run -it ubuntu bash
+
+[A
+[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K
+dbf6a9befcde: Pulling fs layer 
+[1B[1A[2K
+dbf6a9befcde: Downloading  310.6kB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  621.9kB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading    924kB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  1.223MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  1.534MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  1.833MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  2.145MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  2.444MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  2.747MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   3.05MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  3.353MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  3.664MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  3.976MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  4.287MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   4.59MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  4.889MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading    5.2MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  5.503MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  5.815MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  6.126MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  6.437MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  6.744MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  7.056MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  7.367MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  7.678MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   7.99MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  8.293MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  8.604MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  8.915MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  9.227MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  9.534MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  9.845MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  10.16MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  10.46MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  10.76MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  11.07MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  11.38MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  11.69MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  11.99MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  12.29MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   12.6MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  12.91MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  13.22MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  13.53MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  13.83MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  14.14MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  14.44MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  14.76MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  15.07MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  15.38MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  15.68MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  15.99MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  16.29MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   16.6MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  16.91MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  17.22MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  17.53MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  17.84MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  18.15MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  18.45MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  18.76MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  19.07MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  19.38MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  19.68MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  19.99MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  20.29MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   20.6MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   20.9MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   21.2MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  21.51MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  21.82MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  22.13MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  22.44MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  22.75MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  23.06MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  23.36MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  23.67MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  23.98MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  24.29MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  24.59MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  24.91MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  25.22MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  25.52MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  25.84MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  26.13MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  26.43MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  26.75MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  27.04MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  27.36MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  27.67MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  27.97MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  28.28MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  28.59MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  28.89MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading   29.2MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Downloading  29.51MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Verifying Checksum 
+[1B[1A[2K
+dbf6a9befcde: Download complete 
+[1B[1A[2K
+dbf6a9befcde: Extracting  327.7kB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  6.554MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  11.47MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  20.32MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  25.89MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  29.16MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Extracting  29.53MB/29.53MB
+[1B[1A[2K
+dbf6a9befcde: Pull complete 
+[1BDigest: sha256:dfd64a3b4296d8c9b62aa3309984f8620b98d87e47492599ee20739e8eb54fbf
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@837741731b8e: /root@837741731b8e:/# mkdir /usr/sr /   c/  s rc/app
+[?2004l
+[?2004h]0;root@837741731b8e: /root@837741731b8e:/# cd /us sr/src/app/
+[?2004l
+[?2004h]0;root@837741731b8e: /usr/src/approot@837741731b8e:/usr/src/app# touch index.js
+[?2004l
+[?2004h]0;root@837741731b8e: /usr/src/approot@837741731b8e:/usr/src/app# ls
+[?2004l
+index.js
+[?2004h]0;root@837741731b8e: /usr/src/approot@837741731b8e:/usr/src/app# exit
+[?2004l
+exit
+[?2004h]0;morgenrote@debian: ~/Documents/Prog/repos/part12-containers-applications/script-answers[01;32mmorgenrote@debian[00m:[01;34m~/Documents/Prog/repos/part12-containers-applications/script-answers[00m$ exit
+[?2004l
+exit
+
+Script done on 2023-05-16 22:21:49+03:00 [COMMAND_EXIT_CODE="0"]

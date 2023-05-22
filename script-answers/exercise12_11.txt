@@ -1,0 +1,10 @@
+(>>> = console log)
+docker exec -it todo-backend-redis-1 bash
+redis-cli
+KEYS *  >>> 1 "count" 
+GET count >>> "1"
+SET count 9001 >>> OK 
+// Updated to 9001 //
+// Todo added updated to 9002 //
+DEL count >>> (integer) 1
+// working as intended // 

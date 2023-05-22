@@ -1,0 +1,28 @@
+services:
+  app:
+    image: patientor-frontend-dev
+    build:
+      context: ./patientor/
+      dockerfile: dev.Dockerfile 
+    volumes:
+      - ./patientor:/usr/src/app 
+    container_name: patientor-frontend-dev             
+  server:
+    image: patientor-backend-dev
+    build:
+      context: ./patientor-backend
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./patientor-backend:/usr/src/app
+    container_name: patientor-backend-dev
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy-pdev
+    depends_on:
+      - app
+      - server
+                                

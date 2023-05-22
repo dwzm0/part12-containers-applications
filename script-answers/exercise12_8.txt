@@ -1,0 +1,49 @@
+docker exec -it todo-app-mongo bash
+mongosh -u root -p example
+show dbs
+        admin         100.00 KiB
+        config         12.00 KiB
+        local          72.00 KiB
+        the_database   40.00 KiB
+use the_database
+show collections
+    todos
+db.todos.find({})
+    [
+    {
+        _id: ObjectId("633c270ba211aa5f7931f078"),
+        text: 'Write code',
+        done: false
+    },
+    {
+        _id: ObjectId("633c270ba211aa5f7931f079"),
+        text: 'Learn about containers',
+        done: false
+    }
+    ]
+db.todos.insertOne({"text": "Increase the number of tools in my toolbelt", "done": false})    
+    {
+      acknowledged: true,
+      insertedId: ObjectId("63f928f10ee5432a429901ea")
+    }
+db.todos.find({})
+    [
+    {
+        _id: ObjectId("63f91e11b3cc6206663928a5"),
+        text: 'Write code',
+        done: true
+    },
+    {
+        _id: ObjectId("63f91e11b3cc6206663928a6"),
+        text: 'Learn about containers',
+        done: false
+    },
+    {
+        _id: ObjectId("63f928f10ee5432a429901ea"),
+        text: 'Increase the number of tools in my toolbelt',
+        done: false
+    }
+    ]
+exit
+exit 
+exit       

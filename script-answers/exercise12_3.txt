@@ -1,0 +1,31 @@
+docker start -i pensive_cohen
+nano /usr/src/app/index.js
+CTRL + V console.log('Hello World')
+CTRL + O CTRL + X
+exit
+exit
+
+
+Script started on 2023-05-17 12:43:31+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="109" LINES="50"]
+[?2004h]0;morgenrote@debian: ~/Documents/Prog/repos/part12-containers-applications/script-answers[01;32mmorgenrote@debian[00m:[01;34m~/Documents/Prog/repos/part12-containers-applications/script-answers[00m$ dcoker [K[K[K[K[K[Kocker start 0[K-i pensive_cohen 
+[?2004l
+[?2004h]0;root@837741731b8e: /root@837741731b8e:/# 
+[K]0;root@837741731b8e: /root@837741731b8e:/# [7mnano /usr/src/app/index.js[27mnano /usr/src/app/index.js
+[?2004l
+[?2004h[?1049h[22;0;0t[1;50r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[48;48H(B[0;7m[ Reading... ](B[m[48;47H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [31b/usr/src/app/index.js [40b [1;108H(B[m
+[49d(B[0;7m^G(B[m Help[49;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[49;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo
+[50d(B[0;7m^X(B[m Exit[50;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo
+[2d[?12l[?25h[?25l[1;69H(B[0;7m*
+[48d(B[m[K[1;108H
+[2dconsole.log((B[0;1m[35m'Hello World'[39m(B[m)
+[3d[?12l[?25h[?25l[49;16H [11b(B[0;7mM-D(B[m DOS Format [12b(B[0;7mM-A(B[m Append[17X[49;82H(B[0;7mM-B(B[m Backup File[K[50;2H(B[0;7mC(B[m Cancel[16G [11b(B[0;7mM-M(B[m Mac Format [12b(B[0;7mM-P(B[m Prepend[16X[50;82H(B[0;7m^T(B[m Browse[K
+[48d(B[0;7mFile Name to Write: /usr/src/app/index.js [66b [48;42H(B[m[?12l[?25h[?25l[47G[1K (B[0;7m[ Writing... ](B[m[K[1;69H(B[0;7m [108G(B[m[48;47H(B[0;7m[ Wrote 1 line ](B[m[49;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut [8b(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[50;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste [6b(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[?12l[?25h
+[3d[?25l[48d[J[50d[?12l[?25h[50;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@837741731b8e: /root@837741731b8e:/# [Kexit 
+[?2004l
+exit
+[?2004h]0;morgenrote@debian: ~/Documents/Prog/repos/part12-containers-applications/script-answers[01;32mmorgenrote@debian[00m:[01;34m~/Documents/Prog/repos/part12-containers-applications/script-answers[00m$ exit 
+[?2004l
+exit
+
+Script done on 2023-05-17 12:45:14+03:00 [COMMAND_EXIT_CODE="0"]
